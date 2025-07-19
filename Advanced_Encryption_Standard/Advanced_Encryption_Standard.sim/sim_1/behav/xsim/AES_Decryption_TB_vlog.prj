@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/AES_Decryption.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Input_Stage.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Inverse_Mix_Columns.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Inverse_Shift_Rows.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Inverse_Sub_Bytes.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Multiply_By_11.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Multiply_By_13.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Multiply_By_14.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Multiply_By_9.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/ROM_Inverse_S_Box.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/ROM_S_BOX.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Rot_Word.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Round_Key_Value.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sources_1/new/Sub_Word.v" \
+"../../../../Advanced_Encryption_Standard.srcs/sim_1/new/AES_Decryption_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
