@@ -1,4 +1,3 @@
-#Advanced_Encryption_standards
 Designed and implemented the AES encryption and decryption algorithm for secure data communication in hardware.
 Developed modules for key expansion, substitution bytes (S-box), shift rows, mix columns, and add round key
 operations.
